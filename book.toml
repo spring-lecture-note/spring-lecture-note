@@ -1,0 +1,21 @@
+[book]
+title = "Note: Spring Lecture"
+authors = ["jerok-kim", "jae-geun-song"]
+language = "kr"
+multilingual = true
+src = "src"
+
+[rust]
+edition = "2021"
+
+[build]
+build-dir = "docs"
+create-missing = true
+use-default-preprocessors = true
+extra-watch-dirs = []
+
+[output.html]
+default-theme = "Light"
+mathjax-support = true
+git-repository-url = "https://github.com/spring-lecture-note/spring-lecture-note"
+git-repository-icon = "fa-github"
