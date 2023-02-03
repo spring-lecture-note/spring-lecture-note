@@ -3,8 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Note: Spring Lecture</title>
-        <meta name="robots" content="noindex" />
+        <title>TCP - Note: Spring Lecture</title>
 
 
         <!-- Custom HTML head -->
@@ -83,7 +82,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="introduction.html">Introduction</a></li><li class="chapter-item expanded "><a href="chapter_01.html"><strong aria-hidden="true">1.</strong> 통신</a></li><li class="chapter-item expanded "><a href="chpater_02.html"><strong aria-hidden="true">2.</strong> TCP</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="introduction.html">Introduction</a></li><li class="chapter-item expanded "><a href="chapter_01.html"><strong aria-hidden="true">1.</strong> 통신</a></li><li class="chapter-item expanded "><a href="chpater_02.html" class="active"><strong aria-hidden="true">2.</strong> TCP</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -147,9 +146,7 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="introduction"><a class="header" href="#introduction">Introduction</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="통신"><a class="header" href="#통신">통신</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="tcpudp-통신"><a class="header" href="#tcpudp-통신">TCP/UDP 통신</a></h1>
+                        <h1 id="tcpudp-통신"><a class="header" href="#tcpudp-통신">TCP/UDP 통신</a></h1>
 <p>지금 하게될 TCP/UDP에 대한 내용은 통신에 있어서 중요한 개념이다. 우선, 통신을 이해하는데 있어서 중요한 개념들을 간단한 사례를 통해 알아보자.</p>
 <h2 id="청군의-통신-전략-3-way-handshake"><a class="header" href="#청군의-통신-전략-3-way-handshake">청군의 통신 전략 (3 way handshake)</a></h2>
 <p>청군100명 백군 80명 누가 전쟁에서 승리할까? 다만, 청군은 백군 80명을 사이에 두고 50명, 50명 두군데로 나뉘어져 있다. 전쟁에서 승리하기 위해서는 양쪽으로 나뉘어져 있는 청군 사이에 통신이 필요하다.
@@ -323,6 +320,9 @@ RSA 공개키 기반 방식에서 암호화를 위해서는 내가 데이터를 
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="chapter_01.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
 
 
                         <div style="clear: both"></div>
@@ -331,6 +331,9 @@ RSA 공개키 기반 방식에서 암호화를 위해서는 내가 데이터를 
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="chapter_01.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
 
             </nav>
 
@@ -354,13 +357,6 @@ RSA 공개키 기반 방식에서 암호화를 위해서는 내가 데이터를 
 
         <!-- Custom JS scripts -->
 
-        <script>
-        window.addEventListener('load', function() {
-            MathJax.Hub.Register.StartupHook('End', function() {
-                window.setTimeout(window.print, 100);
-            });
-        });
-        </script>
 
     </body>
 </html>
